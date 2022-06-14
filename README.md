@@ -35,7 +35,7 @@ The command provided above will produce a Serenity test report in the `target/si
 - steps connecting directly with the file .feature
 ### 🗂 tasks
 - methods to do some actions with the elements of the website.
-### 🗂 userinterface
+### 🗂 pageobject
 - elements of the website with its locators.
 
 ## 🗂 Folder resources
