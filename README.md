@@ -25,23 +25,23 @@ Open a command window and run:
 The command provided above will produce a Serenity test report in the `target/site/serenity` directory. Go take a look!
 
 ## Understanding the project
-###  Folder test-cases
+### 🗂 Folder test-cases
 - In this folder you can see the all documentation about manual testing.
 
-##  Folder and package test / java / strangelist
+## 🗂 Folder and package test / java / strangelist
 ### runner
 - to run test cases
-### stepsdefinitions
+### 🗂 stepsdefinitions
 - steps connecting directly with the file .feature
-### tasks
+### 🗂 tasks
 - methods to do some actions with the elements of the website.
-### userinterface
+### 🗂 pageobject
 - elements of the website with its locators.
 
-## Folder resources
-### features - Test suite
+## 🗂 Folder resources
+### 🗂 features - Test suite
 - In the folder features you can search the test suite where are the 5 test-cases written in gherkin language.
-### images
+### 🗂 images
 - Images to upload on the website.
 ### webdriver
 - Not necessary
