@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  selenium-remote:
+    image: selenium/standalone-chrome:4.1.4-20220427
+    shm_size: 2gb
+    ports:
+      - "4444:4444"
+      - "5900:5900"
+
+  app:
+    image: strange:1.0
+    volumes:
+      - m2-repo:/home/.m2/repository
+
+volumes:
+  m2-repo:
